@@ -1,4 +1,13 @@
 # YT-music-parser
+
+### Prepare
+```shell
+mkdir video
+mkdir music
+
+pip install -r requirements.txt
+```
+
 ### In _pytube.cipher.get_throttling_function_name_
 ```python
 function_patterns = [
