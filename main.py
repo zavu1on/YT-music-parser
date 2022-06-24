@@ -51,4 +51,4 @@ if __name__ == '__main__':
         with Pool(10) as pool:
             pool.map(parse_track, enumerate(links))
 
-    print(f'FINISHED BY {start_time - datetime} SEC')
+    print(f'FINISHED BY {start_time - datetime.now()} SEC')
